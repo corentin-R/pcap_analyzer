@@ -37,6 +37,13 @@ Example on debian:
 sudo apt-get install libpcap-dev
 ```
 
+## TODO
+
+* Utiliser un dictionnaire avec allocation de mémoire dynamique plutôt qu'un tableau statique
+* Ajouter TU
+* Mettre les fonctions relatives au fichier PCAP et relatives au tri dans des fichiers .c et .h séparés (et ajouter static au fonction locales)
+* Prendre time de wireshark plutot que le timestamp epoch précis à la seconde près seulement
+
 ## License
 
 This program is released under the MIT License.
